@@ -1,0 +1,34 @@
+body{
+    margin:0;
+    padding:0;
+  
+
+
+}
+.banner{
+    height: 100vh;
+    
+
+}
+.banner::before{
+content:'';
+height:100vh;
+width:100vw;
+position: absolute;
+top:auto;
+left:0;
+background: url(ribbons.jpg);
+animation: animate 10s ease-in-out infinite;
+animation-direction:reverse;
+
+
+}
+
+@keyframes animate{
+    0%{
+        background-position: 0 0;
+    }
+    0%{
+        background-position: 0 1280px;
+    }
+}
