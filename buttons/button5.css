@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding: 0%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: antiquewhite;
+}
+button{
+    position: relative;
+    padding: 15px 30px;
+    margin:10px;
+    background: purple;
+    color: aliceblue;
+    letter-spacing: 10px;
+    border: 1px solid rgb(245, 213, 218);
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+
+
+button:nth-child(1):hover{
+background: plum;
+}
+button:hover{
+    background: rgb(162, 187, 232);
+    }
+ button::before{
+        content: '';
+        position: absolute;
+        top: 0%;
+        left: -100%;
+        width: 100px;
+        height: 100%;
+        background: linear-gradient(90deg,transparent,white,transparent);
+        transition: 0.5s;
+    }
+    button:hover::before{
+        left: 100%;
+    }

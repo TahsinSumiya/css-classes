@@ -1,0 +1,29 @@
+
+body{
+    margin:0;
+    padding:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+    
+}
+button{
+    position: relative;
+    padding: 20px 40px;
+    border: 2px solid rgb(241, 111, 215);
+    font-size: 2em;
+    text-transform: capitalize;
+    color: rgb(5, 101, 186);
+    background-color: aliceblue;
+    letter-spacing:8px;
+    background: rgb(245, 157, 227);
+    transition: 0.5s;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+button:hover{
+color: rgb(41, 145, 145);
+border: 2px solid rgb(240, 141, 227);
+
+}

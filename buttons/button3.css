@@ -1,0 +1,30 @@
+body{
+    margin:0;
+    padding:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: black;
+}
+
+button{
+    position: relative;
+    display: inline-block;
+    padding:15px 30px;
+    color: rgb(232, 177, 232);
+    background-color: black;
+    border: none;
+    text-transform: uppercase;
+    font-size: larger;
+    overflow: hidden;
+    letter-spacing: 10px;
+    transform: 0.3s;
+}
+button:hover{
+    color: rgb(76, 88, 88);
+    background-color: rgb(234, 192, 249);
+    box-shadow: 0 0 10px rgb(232, 177, 232), 0 0 20px rgb(235, 214, 235),0 0 30px rgb(232, 177, 232),
+    0 0 40px rgb(232, 177, 232);
+    transition-delay: 0.7s;
+}
