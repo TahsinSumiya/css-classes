@@ -1,0 +1,11 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    min-height: 100vh;
+    background: linear-gradient(45deg,
+     rgb(248, 179, 179), rgb(243, 212, 155), rgb(240, 240, 147), rgb(183, 251, 183),
+      rgb(168, 168, 241), rgb(219, 175, 249), rgb(234, 161, 234), rgb(245, 141, 141));
+
+}

@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    min-height: 100vh;
+  
+    animation: animate 10s infinite ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@keyframes animate{
+    0%{
+        
+       background: url(https://plus.unsplash.com/premium_photo-1661503349659-f851d30820a1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80)
+       ;
+       background-repeat: no-repeat;
+       background-size: cover;
+    }
+    30%{
+
+        background: url(https://plus.unsplash.com/premium_photo-1661503356084-2377cda6b502?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cGF0dGVybiUyMGJsYWNrJTIwd2hpdGV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60)
+        ;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    70%{
+        
+background: url(https://media.istockphoto.com/id/1190547982/photo/golden-stars-and-hologram-glitter-on-pastel-pink-background.webp?s=170667a&w=0&k=20&c=lHGhrttAqrjzJntNYB9JMJ4TZDoyAg_dRg5XAADQwis=)
+;
+background-repeat: no-repeat;
+background-size: cover;
+    }
+    100%{
+        background: url(https://images.unsplash.com/photo-1571404288124-204a6c4a8a20?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}

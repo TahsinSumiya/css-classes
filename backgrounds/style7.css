@@ -1,0 +1,30 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    min-height: 100vh;
+    background:linear-gradient(90deg, rgb(78, 124, 222) 0%, rgb(43, 43, 156) 35%, rgb(54, 216, 248) 100%);;
+    animation: animate 5s infinite ease-in-out;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 2s ease-in-out;
+}
+@keyframes animate{
+    0%{
+        
+        background:linear-gradient(90deg, rgb(167, 163, 241) 0%, rgb(180, 180, 217) 35%, rgb(222, 90, 136) 100%);
+    }
+    30%{
+
+        background:linear-gradient(90deg, rgb(65, 57, 220) 0%, rgb(226, 168, 236) 35%, rgb(124, 208, 225) 100%);
+    }
+    70%{
+        background:linear-gradient(90deg, rgb(242, 150, 252) 0%, rgb(205, 109, 49) 35%, rgb(231, 145, 189) 100%);
+
+    }
+    100%{
+        background:linear-gradient(90deg, rgb(85, 201, 201) 0%, rgb(33, 164, 48) 35%, rgb(173, 237, 99) 100%);
+    }
+}
+

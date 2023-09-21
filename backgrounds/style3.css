@@ -1,0 +1,9 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    min-height: 100vh;
+    background: rgb(34, 195, 82);
+background: linear-gradient(0deg, rgb(192, 34, 81) 0%, rgba(223,45,253,1) 100%);
+}
