@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(243, 227, 227);
+}
+img{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    filter: grayscale(100%);
+    transition: .5s ease-in-out;
+}
+img:hover{
+    filter: grayscale(0%); 
+}
