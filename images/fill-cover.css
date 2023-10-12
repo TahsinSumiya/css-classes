@@ -1,0 +1,35 @@
+body{
+    background: rgb(190, 152, 2);
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.container{
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    
+}
+.imagebox{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    border: 6px double rgb(215, 186, 114);
+}
+.grey{
+    filter: grayscale(100%);
+}
+.color{
+    width:0;
+    transition: 2s;
+    overflow: hidden;
+    border-right: 2px solid black;
+}
+
+.container:hover .color{
+width: 100%;
+}
