@@ -1,0 +1,94 @@
+body{
+    margin:0;
+    padding:0;
+
+}
+.loader{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border-top: 4px solid black;
+    border-bottom:40px solid black;
+    border-left:1px solid black;
+    border-right:1px solid black;
+
+    display: flex;
+    padding: 0 40px 20px;
+}
+
+.loader span{
+    position: relative;
+    display:block;
+    width:2px;
+    height:100px;
+    background: #262626;
+    margin:0 14px;
+    transform-origin: top;
+}
+
+.loader span::before{
+    content:'';
+    position: absolute;
+    bottom:0;
+    left:-14px;
+    width:30px;
+    height:30px;
+    background: black;
+    border-radius: 50%;
+
+}
+
+.loader span:first-child{
+   animation: animate 1s linear infinite
+
+} 
+ .loader span:last-child{
+    animation: animate 1s linear infinite;
+    animation-delay: 0.5s;
+ 
+ }
+ /* .loader span:nth-child(1){
+    animation: animate 5s linear infinite;
+    animation-delay: 0.2s;
+ 
+ }
+ .loader span:nth-child(2){
+    animation: animate 5s linear infinite;
+    animation-delay: 0.3s;
+ 
+ }
+ .loader span:nth-child(3){
+    animation: animate 5s linear infinite;
+    animation-delay: 0.3s;
+ 
+ }
+ .loader span:nth-child(4){
+    animation: animate 5s linear infinite;
+    animation-delay: 0.4s;
+ 
+ }
+ .loader span:nth-child(5){
+    animation: animate 5s linear infinite;
+    animation-delay: 0.5s;
+ 
+ }
+ .loader span:nth-child(6){
+    animation: animate 5s linear infinite;
+    animation-delay: 0.6s;
+ 
+ } */
+@keyframes animate{
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(60deg);
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}

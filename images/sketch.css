@@ -16,5 +16,5 @@ img{
 }
 
 img:hover{
-   filter: grayscale(1) contrast(6);
+   filter: grayscale(1) contrast(10);
 }
